@@ -1,4 +1,4 @@
-# *A Latin Dictionary*, edd. Lewis & Short as plain text
+# *A Latin Dictionary* (edd. Lewis & Short) as plain text
 
 ## What?
 
