@@ -17,7 +17,7 @@ My motivation is to use this version of Lewis and Short to create tools to help 
 
 ## How?
 
-I used [a tool provided by PerseusDL][tei-conversion-tools] to transform the beta code in the XML file into unicode Greek and a small set of `sed` commands to transform all of the remaining character entities into unicode. (E.g., *&amacr;* becomes *ā*.) Finally a Python script extracted the content from the XML. (I've included the `sed` and Python scripts in case anyone wants to adapt or improve those.)
+I used [a tool provided by PerseusDL][tei-conversion-tools] to transform the beta code in the XML file into unicode Greek and a small set of `sed` commands to transform all of the remaining character entities into unicode. (E.g., *\&amacr;* becomes *ā*.) Finally a Python script extracted the content from the XML. (I've included the `sed` and Python scripts in case anyone wants to adapt or improve those.)
 
 [tei-conversion-tools]: https://github.com/PerseusDL/tei-conversion-tools
 
